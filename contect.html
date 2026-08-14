@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - New Wonderful Medical Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">💊 NEW WONDERFUL</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="page-title">
+    <h1>Contact Us</h1>
+    <p>We are happy to hear from you</p>
+</section>
+
+<section class="contact">
+
+    <div class="contact-details">
+
+        <h2>Store Information</h2>
+
+        <div class="contact-card">
+            <h3>📞 Phone</h3>
+            <p>9933283524</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>📍 Address</h3>
+            <p>Near SMS Hospital, Ashok Nagar, Jaipur</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>👩 Owner</h3>
+            <p>Pooja</p>
+        </div>
+
+    </div>
+
+    <div class="contact-form">
+
+        <h2>Send a Message</h2>
+
+        <form onsubmit="sendMessage(event)">
+
+            <label>Your Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label>Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+                required
+            >
+
+            <label>Message</label>
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Write your message"
+                required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 New Wonderful Medical Store</p>
+    <p>Near SMS Hospital, Ashok Nagar, Jaipur</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
